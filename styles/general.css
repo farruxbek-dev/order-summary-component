@@ -1,0 +1,19 @@
+@font-face {
+  font-family: RedHat;
+  src: url(../fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-color: rgb(224,232,255);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: RedHat;
+}
+p {
+  margin: 0;
+}
